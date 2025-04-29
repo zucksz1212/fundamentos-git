@@ -14,3 +14,7 @@
 - [Boas práticas](#boas-praticas)
 - [Materiais Complementares](#materiais-complementares)
 - [Licença](#licenca)
+
+## Introducao
+
+Repositório criado para ensinar e contruibuir no aprendizado de versionamento de código e fluxo de trabalho utilizando o Git. Sendo assim, possibilitando a aplicabilidade do conhecimento adquirido em projetos pessoais ou processos seletivos.
