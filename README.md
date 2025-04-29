@@ -115,3 +115,7 @@ main
 - 📖 [Documentação **Oficial**](https://git-scm.com/doc)
 - 🎥  [Git e GitHub para iniciantes - William Justen](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)
 - 🎥  [Curso de Git e Github COMPLETO 2024 [Iniciantes] + Desafios + Muita Prática](https://www.youtube.com/watch?v=kB5e-gTAl_s)
+
+## Licenca
+
+Material produzido sobe a licença MIT, acesso o arquivo [LICENSE](LICENSE) para obter mais informações.
