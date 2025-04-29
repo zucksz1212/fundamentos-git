@@ -5,10 +5,8 @@
 - [Introdução](#introducao)
 - [Pré-requisitos](#pre-requisitos)
 - [Comandos Git](#comandos-git)
-    - [Comandos iniciais](#comandos-inicias)
-    - [Comandos básicos](#comandos-basicos)
 - [Git Flow](#git-flow)
-    - [Estrutura](#estrutura)
+    - [Estrutura de branches](#estrutura-de-branches)
     - [Diagrama do fluxo](#diagrama-do-fluxo)
     - [Criação das branches](#criacao-das-branches)
 - [Boas práticas](#boas-praticas)
@@ -24,3 +22,32 @@ Repositório criado para ensinar e contruibuir no aprendizado de versionamento d
 1. Possuir o [Git](https://git-scm.com/downloads) instalado na máquina.
 2. Ter uma conta no [GitHub](https://github.com).
 3. [VsCode](https://code.visualstudio.com) ou qualquer outro editor de código.
+
+## Comandos Git
+
+### Principais
+
+- Inicializar repositório
+
+    ```sh
+    git init nome-da-pasta
+    ```
+- Verificar status dos arquivos
+    ```sh
+    git status
+    ```
+- Adicionar alterações
+
+    ```sh
+    git add "Nome do arquivo"
+    ```
+- Realizar um *commit*
+    ```sh
+    git commit -m "Mensagem do commit"
+    ```
+- Verificar histórico de *commits*
+    ```sh
+    git log
+    ```
+
+
