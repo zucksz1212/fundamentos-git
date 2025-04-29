@@ -49,5 +49,57 @@ Repositório criado para ensinar e contruibuir no aprendizado de versionamento d
     ```sh
     git log
     ```
+- Criar e verifcar *branch*
+    ```sh
+    git branch nome-da-branch
+    ```
+- Unir alterações de *branches*
+     ```sh
+    git merge nome-da-branch
+    ```
+## Git Flow
 
+Modelo de trabalho baseado na criação de *branches* para organizar e gerenciar de forma mais eficaz o desenvolvimento do projeto.
 
+### Estrutura de branches
+
+- `main` : manter código estável.
+- `develop` : desenvolvimento geral do projeto.
+- `feature/` : destinada a cada funcionalidade.
+- `release/` : criação de versões do projeto.
+- `hotfix/` : correção de *bugs* e criada a partir da `main`
+
+### Diagrama do fluxo
+
+```plaintext
+main
+|
+|___develop
+|   |
+|   |__feature/nome-da-funcionalidade
+|   |
+|   |____release/1.0.0
+|
+|__hotfix/nome-do-bug
+```
+
+### Criacao das branches
+
+- Criar *branch* `develop`
+
+    ```sh
+    git checkout -b develop
+    ```
+- Criar *branch* `feature/`
+
+    ```sh
+    git checkout -b feature/nome-da-funcionalidade
+    ```
+- Criar *branch* `hotfix/`
+    ```sh
+    git checkout -b hotfix/nome-do-bug
+    ```
+- Criar *branch* `release/`
+    ```sh
+    git checkout -b release/numero-da-release
+    ```
