@@ -103,3 +103,9 @@ main
     ```sh
     git checkout -b release/numero-da-release
     ```
+
+## Boas praticas
+
+- Mantenha o `main` estável.
+- Faça *commits* claros e constantes.
+- Busque trabalhar em *branches* separadas.
