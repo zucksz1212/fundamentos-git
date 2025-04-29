@@ -18,3 +18,9 @@
 ## Introducao
 
 Repositório criado para ensinar e contruibuir no aprendizado de versionamento de código e fluxo de trabalho utilizando o Git. Sendo assim, possibilitando a aplicabilidade do conhecimento adquirido em projetos pessoais ou processos seletivos.
+
+## Pre-requisitos
+
+1. Possuir o [Git](https://git-scm.com/downloads) instalado na máquina.
+2. Ter uma conta no [GitHub](https://github.com).
+3. [VsCode](https://code.visualstudio.com) ou qualquer outro editor de código.
